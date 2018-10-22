@@ -38,6 +38,10 @@ add_executable(nedit-ng
 
 	${QRC_SOURCES}
 
+	DialogPreferences.cpp
+	DialogPreferences.h
+	BorderLayout.cpp
+	BorderLayout.h
 	BlockDragTypes.h
 	Bookmark.h
 	CallTip.h
